@@ -17,11 +17,11 @@ fundoStart = pygame.transform.scale(fundoStart, (1000, 700))
 fundoDead = pygame.image.load("assets/fundoDead.png")
 fundoDead = pygame.transform.scale(fundoDead, (1000, 700))
 canetaPreta = pygame.image.load("assets/blackpen.png")
-canetaPreta = pygame.transform.scale(canetaPreta, (200, 250))
+canetaPreta = pygame.transform.scale(canetaPreta, (200, 200))
 nuvem_imagem = pygame.image.load("assets/nuvem.png")
 nuvem_imagem = pygame.transform.scale(nuvem_imagem, (100, 50))
 pen = pygame.image.load("assets/pen.png")
-pen = pygame.transform.scale(pen, (200, 250))
+pen = pygame.transform.scale(pen, (150, 250))
 
 tamanho = (1000, 700)
 tela = pygame.display.set_mode(tamanho)
@@ -68,8 +68,8 @@ def jogar(nome):
     larguraPersona = 100
     alturaPersona = 100
     larguracaneta = 150
-    alturacaneta = 100
-    larguaMissel = 1000
+    alturacaneta = 150
+    larguaMissel = 100
     alturaMissel = 250
     pontos = 0
     pausado = False
