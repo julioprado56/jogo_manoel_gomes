@@ -44,3 +44,6 @@ Tela de Game Over com exibição dos últimos registros
 # Observações
 Para executar no Windows:
 Utilize python main.py (com Python 3.11+ e bibliotecas instaladas);
+
+# Testador do Jogo: Felipe Luza - 1136806
+
